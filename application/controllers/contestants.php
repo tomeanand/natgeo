@@ -25,11 +25,11 @@ class Contestants extends CI_Controller {
     $crud->display_as('email','Email');
     $crud->display_as('phone','Phone');
     $crud->display_as('attempted','Questions Attempted');
-    $crud->display_as('score','Total Score');
+    $crud->display_as('scored','Total Score');
 
-    $crud->required_fields('name','email','phone','attempted','score');
+    $crud->required_fields('name','email','phone','attempted','scored');
 
-    $crud->columns('name','email','phone','attempted','score');
+    $crud->columns('name','email','phone','attempted','scored');
 
     $crud->unset_add();
     $crud->unset_edit();
@@ -40,9 +40,17 @@ class Contestants extends CI_Controller {
     $this->load->view('admin/template_admin',$data);
   }
 
+private function _options() {
 
+}
   public function send_score()  {
+    $this->output->set_header( 'Access-Control-Allow-Origin: http://localhost:8000' );
+    $this->output->set_header( "Access-Control-Allow-Methods: POST, GET, PUT, DELETE, OPTIONS" );
+    $this->output->set_header( 'Access-Control-Allow-Headers: content-type' );
+    $this->output->set_content_type( 'application/json' );
+    $this->output->set_output( "*" );
 
+echo json_encode(array("city" => "dhaka"));
     $insert_data = array(
         'name' => $this->input->post('name')
       , 'email' => $this->input->post('email')
@@ -50,7 +58,7 @@ class Contestants extends CI_Controller {
       , 'attempted' => $this->input->post('attempted')
       , 'scored' => $this->input->post('scored')
       );  
-    print_r($insert_data);
+    //print_r($insert_data);
       //$result = $this->cmodel->add_user($insert_date);
       //echo json_encode($result);  
   }
