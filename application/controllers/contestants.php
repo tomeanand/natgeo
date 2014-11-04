@@ -19,7 +19,7 @@ class Contestants extends CI_Controller {
 //$this->output->enable_profiler(true);
     $crud = new grocery_CRUD();
     $crud->set_table('natgeo_contastant');    
-    $crud->set_subject('Contastant List');
+    $crud->set_subject('Contestant List');
   
     $crud->display_as('name','Name');
     $crud->display_as('email','Email');
