@@ -9,8 +9,7 @@
     <div class="span8">
 <div class="jumbotron">
     <h2>NatGeo Quiz  - Administration</h2>
-    <!-- <p class="trv_color">Welcome to Teletaxi Administration. <br>Please use top and left menu to go to respective page.<br>
-    Please be carefull about the data/information while you update.</p> -->
+
 </div>        
     </div>
     <div class="span4 "></div>
