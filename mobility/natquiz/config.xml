@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.mxbit.mobility.natquiz" version="0.0.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" versionCode="1.0.4">
+    <name>NatGeoQuiz</name>
+    <description>
+	National Geographic Event - Quiz
+    </description>
+    <author email="info@mxbit.co.in" href="http://mxbit.co.in/">
+      MXBIT Mobility Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>

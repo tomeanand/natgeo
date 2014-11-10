@@ -1,0 +1,102 @@
+<ion-header-bar class="bar-stable">
+<h1 class="title"></h1>
+</ion-header-bar>
+
+<ion-content scroll="false">
+<div class="top_gap_question"></div>
+<div class="top_gap_question"></div>
+
+
+<ion-slide-box show-pager="false" disableScroll='true' on-slide-changed="slideHasChanged($index)" class="blue">
+  <ion-slide ng-repeat="question in questionList">
+    <div class="box blue">
+
+
+
+
+<div class="row">
+<div class="col-80 question_box">
+<h3>السؤال {{$index+1}} من 10</h3>
+
+<h3>{{question.question}}
+<br><span>{{question.question2}}</span>
+</h3>
+<span><img ng-src="{{question.qimg}}" ng-show="{{question.qimg != undefined ? true : false}}"></span>
+
+</div>
+<div class="col-20"></div>
+</div>
+
+
+<div class="row">
+	<div class="col-80">
+	<hr align="right">
+		
+		<div class="list answer_list fade-in question_right" ng-show='checkQtype(question.type, $index, question.layout)'>
+			<div class="row">
+				<div ng-class="{'col-25': question.options.length == 4, 'col-20': question.options.length == 5}" ng-repeat="qops in question.options">
+					<div class="row">
+						<div class="col-75 radio_option">{{qops}}</div>
+						<div class="col-25">
+						<label class="item checkbox">
+						<input type="radio" name="group_{{question.id}}" ng-model="answer" ng-change='selectHandeler($index)' checked="false">
+						</label>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+
+
+
+		<div class="list answer_list fade-in question_right" ng-show='!checkQtype(question.type, $index)'>
+			<div class="row">
+				<div ng-class="{'col-25': question.options.length == 4, 'col-20': question.options.length == 5}" ng-repeat="qops in question.options">
+					<div class="row">
+						<div class="col-75 radio_option_img"><img ng-src="{{getImage(qops)}}"></div>
+						<div class="col-25">
+						<label class="item checkbox">
+						<input type="radio" name="group_{{question.id}}" ng-model="answer" ng-change='selectHandeler($index)' checked="false">
+						</label>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	
+		<!-- <div class="list answer_list fade-in question_right" ng-show='!checkQtype(question.type, $index)'>
+			<div class="row">
+				<div class="getColoumn(question.length)" ng-repeat="qops in question.options">
+					<label class="item item-radio">
+						<input type="radio" name="group_{{question.id}}" ng-model="answer" ng-change='selectHandeler($index)' checked="false"> 
+						<div class="item-content">
+							<div class="item-content"><img ng-src="{{getImage(qops)}}"></div>
+						</div>
+						<i class="radio-icon ion-checkmark"></i>
+					</label>
+				</div>
+			</div>
+		</div> -->
+	</div>
+	<div class="col-20">
+		<!-- Image -->
+	</div>
+</div>
+
+    
+
+    </div>
+  </ion-slide>
+</ion-slide-box>
+
+<img src="img/bext_btn.png" class="next_btn"  ng-click='nextSlide()' ng-show="!isFinal">
+<img src="img/bext_btn.png" class="next_btn"  ng-click='nextSlide()' ng-show="isFinal">
+<!--  -->
+
+
+
+
+
+
+</ion-content>

@@ -1,0 +1,239 @@
+[
+  {
+    "id": 1,
+    "question": "ماهو الشكل الذي نحصل عليه إذا قمنا بتجميع الشكلين التاليين ؟",
+    "qimg" : "img/options/Q1_img1.png",
+    "options": [
+      "img/options/Q1_Answer_1.png",
+      "img/options/Q1_Answer_2.png",
+      "img/options/Q1_Answer_3.png",
+      "img/options/Q1_Answer_4.png"
+    ],
+    "type": 0,
+    "answer": 2
+  },
+  {
+    "id": 2,
+    "question": "سامر  قطع مسافة 4 كم شمالاً, ثم 2 كم شرقاً, ثم 3 كم جنوباً وأخيراً 2 كم شرقاً. ماهو المسافة  'كم' التي قطعها سامر عند بداية أنطلاقه",
+    "options": [
+      "1 كم ",
+      "2 كم ",
+      "3 كم  ",
+      "4 كم "
+    ],
+    "type": 1,
+    "answer": 0
+  },
+  {
+    "id": 3,
+    "question": "أي واحد من الأعداد أدناه لا تنتمي الي السلسة التالية؟",
+  "question2": "1 - 2 - 5 - 10 - 13 - 26 - 29 - 48",
+    "options": [
+      "1",
+      "5",
+      "26",
+      "29",
+      "48"
+    ],
+    "type": 1,
+    "answer": 4
+  },
+  {
+    "id": 4,
+    "question": "كم عدد الأشكال الرباعية في المخطط التالي؟",
+    "qimg" : "img/options/Q4_img1.png",
+    "layout" :"h",
+    "options": [
+      "10",
+      "16",
+      "22",
+      "25",
+      "28"
+    ],
+    "type": 1,
+    "answer": 3
+  },
+  {
+    "id": 5,
+    "question": "الدائرة السوداء تمثل كرم القدم , والدائرة الحمراء تمثل كرة السلة , الدائرة الخضراء تمثل  كرة الطائرة. ما هي المنطقة التي تمثل كل الاشياء: كرة القدم و كرة السلة وكرة الطائرة؟",
+    "qimg" : "img/options/Q5_img1.png",
+    "options": [
+      "img/options/Q5_Answer_1.png",
+      "img/options/Q5_Answer_2.png",
+      "img/options/Q5_Answer_3.png",
+      "img/options/Q5_Answer_4.png",
+      "img/options/Q5_Answer_5.png"
+    ],
+    "type": 0,
+    "answer": 4
+  },
+  {
+    "id": 6,
+    "question": "سبعة أشهر من السنة تحوي 31 يوم;  كم شهر في السنة يحوي 28 يوم؟",
+    "options": [
+      "3",
+      "1",
+      "12",
+      "9"
+    ],
+    "type": 1,
+    "answer": 2
+  },
+  {
+    "id": 7,
+    "question": "ما هو الرقم المفقود في السلسلة التالية؟ ",
+  "question2": "1 - 8 - 27 - ? - 125 - 216",
+    "options": [
+      "36",
+      "45",
+      "46",
+      "64",
+      "99"
+    ],
+    "type": 1,
+    "answer": 4
+  },
+  {
+    "id": 8,
+    "question": "سارة أكلت عدد من حبات العنب. بعدما أكلت حبة واحدة, أعطت نصف الباقي لشقيقتها. وبعدما أكلت حبة أخرى, أعطت ثلث الباقي  لأخيها.  سارة تملك الاَن ست حبات. كم كان عدد حبات العنب  في البداية؟",
+    "options": [
+      "10",
+      "40",
+      "21",
+      "16"
+    ],
+    "type": 1,
+    "answer": 2
+  },
+  {
+    "id": 9,
+    "question": "أي واحد من الأشياء التالية تكون  على الأقل  مثل الأخريات؟",
+    "options": [
+      " قصيدة ",
+      "رواية ",
+      "لوحة",
+      "تمثال",
+      "زهرة"
+    ],
+    "type": 1,
+    "answer": 4
+  },
+  {
+    "id": 10,
+    "question": "أي واحد من الأشكال المخططة أدناه تكمل السلسلة التالية؟",
+    "qimg" : "img/options/Q10_img1.png",
+    "options": [
+      "img/options/Q10_Answer_1.png",
+      "img/options/Q10_Answer_2.png",
+      "img/options/Q10_Answer_3.png",
+      "img/options/Q10_Answer_4.png"
+    ],
+    "type": 0,
+    "answer": 2
+  },
+  {
+    "id": 11,
+    "question": "أي واحد من الخيارات الخمسة  تكون أفضل مقارنة؟",
+  "question2": "طماطم يكون مثل مطامط مثل 46251  يكون مثل",
+    "options": [
+      "25641",
+      "26451",
+      "12654",
+      "51462",
+      "15264"
+    ],
+    "type": 1,
+    "answer": 4
+  },
+  {
+    "id": 12,
+    "question": "ماري عمرها 16 سنة, وهي أكبر بأريع مرات من أخيها.  كم يكون عمر ماري عندما يكون عمرها أكبر بمرتين من عمر أخيها؟",
+    "options": [
+      "20",
+      "24",
+      "25",
+      "26",
+      "28"
+    ],
+    "type": 1,
+    "answer": 1
+  },
+  {
+    "id": 13,
+    "question": "أي واحد من الأشكال المخططة أدناه تكمل السلسلة التالية؟",
+    "qimg" : "img/options/Q13_img1.png",
+    "options": [
+      "img/options/Q13_Answer_1.png",
+      "img/options/Q13_Answer_2.png",
+      "img/options/Q13_Answer_3.png",
+      "img/options/Q13_Answer_4.png",
+      "img/options/Q13_Answer_5.png"
+    ],
+    "type": 0,
+    "answer": 4
+  },
+  {
+    "id": 14,
+    "question": "لو قمت بترتيب الأحرف 'ال ه د ي ا'  سوف تحصل على الأسم الكامل المطلوب",
+    "options": [
+      "المدينة",
+      "الحيوان",
+      "النهر",
+      "المحيط",
+      "القطر"
+    ],
+    "type": 1,
+    "answer": 3
+  },
+  {
+    "id": 15,
+    "question": "أي واحد من الخمسة يكون على الأقل مثل  الأربعة الأخريات؟",
+    "options": [
+      "كلب",
+      "فأر",
+      "أسد",
+      "أفعى",
+      "فيل"
+    ],
+    "type": 1,
+    "answer": 3
+  },
+  {
+    "id": 16,
+    "question": "هذه الأعداد تتبع النموذج. 2, 7, 13, 20, 28.  ماهو العدد التالي؟",
+    "options": [
+      "30",
+      "37",
+      "47",
+      "42"
+    ],
+    "type": 1,
+    "answer": 1
+  },
+  {
+    "id": 17,
+    "question": "واحد من هذه الأشياء مختلفة عن الأخريات . ماهو؟",
+    "options": [
+      "gmail.com",
+      "yahoo.com",
+      "hotmail.com",
+      "ask.com"
+    ],
+    "type": 1,
+    "answer": 3
+  },
+  {
+    "id": 18,
+    "question": "ما هي  الصورة أدناه التي تكمل السلسلة التالية؟",
+    "qimg" : "img/options/Q20_img1.png",
+    "options": [
+      "img/options/Q20_Answer_1.png",
+      "img/options/Q20_Answer_2.png",
+      "img/options/Q20_Answer_3.png",
+      "img/options/Q20_Answer_4.png",
+      "img/options/Q20_Answer_5.png"
+    ],
+    "type": 0,
+    "answer": 1
+  }
+]

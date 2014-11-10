@@ -1,0 +1,36 @@
+Node version: v0.10.32
+
+Cordova version: 0.21.13
+
+Config.xml file: 
+
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.mxbit.mobility.bakasur" version="0.0.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" versionCode="1.0.4">
+    <name>Bakasur</name>
+    <description>
+        Restaurant menu display project. Version 1.0.4
+    </description>
+    <author email="info@mxbit.co.in" href="http://mxbit.co.in/">
+      MXBIT Mobility Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
+
+
+Plugins: 
+
+org.apache.cordova.inappbrowser
+
+Android platform:
+
+Available Android targets:
+----------
+id: 1 or "android-19"
+     Name: Android 4.4
+     Type: Platform
+     API level: 19
+     Revision: 1
+     Skins: HVGA, QVGA, WQVGA400, WQVGA432, WSVGA, WVGA800 (default), WVGA854, WXGA720, WXGA800, WXGA800-7in
+     ABIs : armeabi-v7a
+

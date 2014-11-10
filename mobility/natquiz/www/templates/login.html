@@ -1,0 +1,45 @@
+<ion-header-bar class="bar-stable">
+<h1 class="title"></h1>
+</ion-header-bar>
+
+<ion-content >
+<div class="top_gap_question"></div>
+
+
+<div class="row">
+	<div class="col-25"></div>
+	<div class="col-50">
+	<form name="login_form" novalidate>
+		<div class="row">
+			<div class="col mtop">
+				<label class="item item-input">
+					<input ng-model="user.name" name="fname" type="text" placeholder="الأسم" required>
+				</label>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col mtop">
+				<label class="item item-input">
+					<input ng-model="user.email" name="email" type="email" placeholder="البريد الإلكتروني" required>
+				</label>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col mtop">
+				<label class="item item-input">
+					<input ng-model="user.phone" name="phone" type="text" placeholder="رقم الجوال" required>
+				</label>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col mtop"><button ng-disabled="!login_form.$valid"  class="button button-energized" ng-click='gotoQuestion()'>التالي</button>
+			<span class="error_login" ng-show='showError'>يرجى تعبئة جميع الحقول.</span>
+			</div>
+		</div>		
+	</form>
+	</div>
+</div>
+<div class="col-25"></div>
+</div>
+</ion-content>

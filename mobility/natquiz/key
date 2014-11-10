@@ -1,0 +1,37 @@
+Key Gen
+$ keytool -genkey -v -keystore natquiz-release-key.keystore -alias natquiz -keyalg RSA -keysize 2048 -validity 10000
+
++++++++++++++++++
+
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore natquiz-release-key.keystore platforms/android/ant-build/NatGeoQuiz-release-unsigned.apk natquiz
+
+zipalign  4 platforms/android/ant-build/NatGeoQuiz-release-unsigned.apk NatGeoQuiz.apk
+
+
+Manu,
+
+Here is the first cut.
+
+These are the things I need to complete this
+
+1. Texts in the result page.
+2. What all fields are there in the login page
+3. What has to be done with the user entered fields
+	To be saved somewhere in db or something like that
+	Is there any validation needed for the login page or let the user move ahead with out forcing
+4. What has to be shared in using social icons
+	If the results, whoms accont
+5. Score calculation 
+	Is that with percentage or shows the correct answers user made.
+6. Need icons to be showed in the mobile and tablet
+	Right now i used a dummy one which will apprer in device
+	Now icons we need should be of 96,72,48,36 square pixels
+
+
+Above all please do provide change iteration to the max of 2 times.
+If its goes more than that, It would make me unconfortable :)
+So I would kidly suggest you to give me a collaborated change request rather that one by one.
+
+Thanks,
+Anand
+

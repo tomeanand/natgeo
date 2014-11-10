@@ -1,0 +1,81 @@
+[
+  {
+    "id": 1,
+    "question": "ماهو الشكل الذي نحصل عليه إذا قمنا بتجميع الشكلين التاليين ؟",
+    "qimg" : "img/options/Q1_img1.png",
+    "options": [
+      "img/options/Q1_Answer_1.png",
+      "img/options/Q1_Answer_2.png",
+      "img/options/Q1_Answer_3.png",
+      "img/options/Q1_Answer_4.png"
+    ],
+    "type": 0,
+    "answer": 2
+  },
+  {
+    "id": 2,
+    "question": "سامر  قطع مسافة 4 كم شمالاً, ثم 2 كم شرقاً, ثم 3 كم جنوباً وأخيراً 2 كم شرقاً. ماهو المسافة  'كم' التي قطعها سامر من بداية أنطلاقه ",
+    "options": [
+      "1 كم ",
+      "2 كم ",
+      "كم  ",
+      "كم "
+    ],
+    "type": 1,
+    "answer": 0
+  },
+  {
+    "id": 3,
+    "question": "1 - 2 - 5 - 10 - 13 - 26 - 29 - 48أي واحد  من الأعداد لا تنتمي الي السلسة التالية؟",
+    "options": [
+      "1",
+      "5",
+      "26",
+      "29",
+      "48"
+    ],
+    "type": 1,
+    "answer": 4
+  },
+  {
+    "id": 4,
+    "question": "كم عدد الأشكال الرباعية في المخطط التالي؟",
+    "qimg" : "img/options/Q4_img1.png",
+    "layout" :"h",
+    "options": [
+      "10",
+      "16",
+      "22",
+      "25",
+      "28"
+    ],
+    "type": 1,
+    "answer": 3
+  },
+  {
+    "id": 5,
+    "question": "الدائرة السوداء تمثل كرم القدم , والدائرة الحمراء تمثل كرة السلة , الدائرة الخضراء تمثل  كرة الطائرة. ما هي المنطقة التي تمثل كل الاشياء: كرة القدم و كرة السلة وكرة الطائرة",
+    "qimg" : "img/options/Q5_img1.png",
+    "options": [
+      "img/options/Q5_Answer_1.png",
+      "img/options/Q5_Answer_2.png",
+      "img/options/Q5_Answer_3.png",
+      "img/options/Q5_Answer_4.png",
+      "img/options/Q5_Answer_5.png"
+    ],
+    "type": 0,
+    "answer": 4
+  },
+  {
+    "id": 6,
+    "question": "7 أشهر من السنة تحوي 31 يوم;  كم شهر يحوي 28 يوم؟",
+    "options": [
+      "3",
+      "1",
+      "12",
+      "9"
+    ],
+    "type": 1,
+    "answer": 2
+  }
+]
